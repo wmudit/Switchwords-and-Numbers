@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Healing Circle</string>
+    <string name="title_activity_home">Switchwords</string>
+    <string name="title_activity_about_us">About Me</string>
+    <string name="title_activity_about_switchwords">About Switchwords</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="heading_switchwords">Switch Words</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search</string>
+
+    <string name="hello">Hello</string>
+    <string name="about">About</string>
+
+    <string name="tag">Switchwords/Numbers:</string>
+    <string name="description">Description:</string>
+
+    <string name="about_us">About Me</string>
+    <string name="about_us_content">Healing Circle, a centre of alternative healing therapies, was started with the vision of helping humanity. I, Beenhu SC Grover, the founder of this centre, started my journey into this mystical world with Reiki but it was just a beginning with no end. I learnt Tarot, Numerology, Hand Writing Analysis to name a few.
+    \n\nSwitchwords and Frequency Numbers came into my space almost 2 years back but the amazing feedbacks which I receive from my students and clients, pushed me to design this application. I hope this application would make this therapy more simpler to use.</string>
+
+    <string name="about_switchwords">About Switchwords</string>
+    <string name="about_switchwords_content">Switchwords are English Words called one word Mantras. As the name implies – SWITCHWORDS – words that work like Switches. The moment we Switch on any electric button, connecting device automatically gets on. Similarly, the moment, we Chant or Write these words, a particular situation gets healed automatically and new positive situation is created. The founder of the system, James T Mangan, originated more than 100 words and later on many words were added. After James, Shunyam Nirav added approx 20 words to the list and he introduced the concept of Phrases as well. A Phrase means using a group of words for one situation. The list is endless today.  There are Switchwords and Switchphrases for every requirement.  This therapy is simplest to understand and easiest to implement. This therapy gained so much popularity because of the results generated that later on many numeric codes were also added to this.</string>
+    <string name="about_codes">About Healing Codes/Numbers</string>
+    <string name="about_codes_content">Healing Numbers are the Numeric codes used for healing anything. They have been invented by Scientists like Grabovoi Girbori and Llyod Mear. Today many branches of healing numbers are available e.g. Grabovoi Codes, Llyod Frequencies, Rife Frequencies, Angel Numbers, Numbers channeled by Agesta and even more. There are unlimited codes for every situation of life.  It\'s an endeavour to help you heal by bringing all of them together under one platform.\n\“Just as a pebble creates vibrations that appear as ripples, which travel outward in a body of water, your thoughts create vibrations that travel outward into the Universe, and attract similar vibrations that manifest as circumstances in your life.\” - Unknown.  </string>
+
+    <string name="how_to_use">How to use Swtichwords</string>
+    <string name="how_to_use_content">There are many ways of using Switchwords and Numbers\n
+    1. We can chant words and phrases anytime during the day and any number of times. Though different rules have been added by different people but as per the founder of the system i.e. James T Mangan - words can be chanted 24 x 7. We preferably don\'t chant numbers but if they are small we can chant numbers as well\n\n
+    2. We can write words and numbers on our left arm with blue pen\n\n
+        3. We can make Energy Circles called ECs. ECs are circles and within the circles we can write words and numbers and use them in any or all of the following ways -\n
+        i) Charge water by keeping glass of water over the laminated EC for 20 secs and drink - do it 3 to 6 times a day\n
+        ii) Place under pillow or mattress during night\n
+        iii) Place 3 fingers of left hand on EC for 20 sec and can be done many times a day\n
+        iv) Stick the EC on glass or Bottle\n
+        v) Keep it on your desk/table/wall\n\n
+        4. We can write on our reading books\n\n
+        5. We can write on white medical tape and stick on body</string>
+    <string name="title_activity_how_to_use">HowToUse</string>
+    <string name="title_activity_get_in_touch">GetInTouch</string>
+    <string name="contact_call">Call Us</string>
+    <string name="contact_email">Send us an email</string>
+    <string name="contact_website">Visit our website</string>
+</resources>

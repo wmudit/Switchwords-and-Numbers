@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_switchwords"
+            android:icon="@drawable/ic_home"
+            android:title="Switchwords" />
+        <item
+            android:id="@+id/nav_use"
+            android:icon="@drawable/ic_switchwords"
+            android:title="How to use switchwords" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_switchwords"
+            android:title="About Switchwords" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Me" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_get_in_touch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Get in touch" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

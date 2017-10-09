@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.co.healingcircle.healingcircle.GetInTouch"
+    tools:showIn="@layout/app_bar_get_in_touch">
+
+    <TextView
+        android:id="@+id/callTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_call"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_email"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/callTextView"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/callImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_call_black_36dp"
+        app:layout_constraintTop_toTopOf="@+id/callTextView"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/callTextView"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/callTextView"
+        android:layout_marginLeft="15dp" />
+
+    <ImageView
+        android:id="@+id/emailImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_email_black_36dp"
+        app:layout_constraintLeft_toRightOf="@+id/emailTextView"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toTopOf="@+id/emailTextView"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/emailTextView"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:id="@+id/websiteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_website"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/websiteImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_web_black_36dp"
+        app:layout_constraintTop_toTopOf="@+id/websiteTextView"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/websiteTextView"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/emailImageView" />
+</android.support.constraint.ConstraintLayout>
